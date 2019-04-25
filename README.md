@@ -1,3 +1,10 @@
+## 使用
+`$ go get -u github.com/kazukousen/gouml/cmd/gouml`
+gouml i -d "目录"
+将生成的文件头部加上@startuml,尾部加上@enduml,然后将文件后缀名改为puml。
+goland 安装plantuml 插件就能打开
+
+
 [![Build Status](https://travis-ci.org/kazukousen/gouml.svg?branch=master)](https://travis-ci.org/kazukousen/gouml)  
 
 Automatically generate PlantUML from Go Code.  
